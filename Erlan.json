@@ -1,0 +1,32 @@
+{
+  "0": {
+    "id": "1",
+    "name": "DAF",
+    "driver": "",
+    "state": "BASE"
+  },
+  "1": {
+    "id": "2",
+    "name": "Volvo",
+    "driver": "",
+    "state": "BASE"
+  },
+  "2": {
+    "id": "3",
+    "name": "SCANIA",
+    "driver": "",
+    "state": "BASE"
+  },
+  "3": {
+    "id": "4",
+    "name": "MERSEDES",
+    "driver": "",
+    "state": "BASE"
+  },
+  "4": {
+    "id": "5",
+    "name": "SLIPER",
+    "driver": "",
+    "state": "BASE"
+  }
+}
