@@ -91,7 +91,7 @@ import java.util.Scanner;
                     id = scanner.nextInt();
                     id--;
                     System.out.println(ЧЕРНЫЙ + "----------------Информация Грузовиков-----------------" + ПЕРЕГРУЗИТЬ);
-                    System.out.println("Остановить                :" + list1.get(id).getId());
+                    System.out.println("Id Фуры                 :" + list1.get(id).getId());
                     System.out.println("Автобус              :" + list1.get(id).getName());
                     System.out.println("Водитель           :" + list1.get(id).getDriver());
                     System.out.println("Состояние           :" + list1.get(id).getState());

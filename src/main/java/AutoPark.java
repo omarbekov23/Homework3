@@ -1,7 +1,4 @@
 public class AutoPark {
-    public static final String BASE = "BASE";
-    public static final String ROUTE = "ROUTE";
-    public static final String REPAIR = "REPAIR";
     private int id;
     private String name;
     private String driver;

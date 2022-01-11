@@ -21,7 +21,6 @@ public class ServiceImpl implements Service{
             System.out.println(КРАСНЫЙ + "Мы не можем сменить водителя, потому что он уже в пути!" + ПЕРЕГРУЗИТЬ);
 
         }
-
         else if(list1.get(id).getDriver().equals("")) {
             for (int i = 0; i < list1.size(); i++) {
                 if (list2.get(i).getBus().equals("")) {
@@ -32,7 +31,6 @@ public class ServiceImpl implements Service{
                 }
             }
         }
-
         else if(!list1.get(id).getDriver().equals("")){
             for(int i = 0; i<list1.size(); i++){
                 if(list1.get(id).getDriver().equals(list2.get(i).getName())){
@@ -55,11 +53,10 @@ public class ServiceImpl implements Service{
 
     public void startDriving(List<AutoPark> list1, List<DriverInfo> list2, int id) {
         int k = random.nextInt(3-1)+1;
-        //if already on the road
+
         if (list1.get(id).getState().equals("МАРШРУТ")){
             System.out.println(КРАСНЫЙ +"Грузовик уже на дороге."+ ПЕРЕГРУЗИТЬ);
         }
-        //if under repair and need to change state
         else if(list1.get(id).getState().equals("РЕМОНТ")&&!list1.get(id).getDriver().equals("")){
             if(k==1){
                 list1.get(id).setState("МАРШРУТ");
